@@ -14,6 +14,10 @@ public:
     void setHasSilencer(bool value) { hasSilencer = value; }
     bool getHasSilencer() const { return hasSilencer; }
     void log(const std::string& message);
+    void applyFlashbangEffect();
+    void applySmokeEffect();
+    int getFlashbangEffect() const;
+    int getSmokeEffect() const;
 
 private:
     Commando commando;
@@ -25,6 +29,8 @@ private:
     bool missionSuccess = false;
     int killedGuards = 0;
     bool hasSilencer = false;
+    int flashbangEffect = 0;
+    int smokeEffect = 0;
 
     std::mt19937 rng;
 

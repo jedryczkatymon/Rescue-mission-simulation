@@ -13,12 +13,14 @@
 #include "Silencer.h"
 
 // Konstruktor misji – inicjalizacja strażników, zakładników i ekwipunku
-Mission::Mission() : rng(std::random_device{}()) {  // inicjalizacja rng
+Mission::Mission() : rng(std::random_device{}())
+{ // inicjalizacja rng
 
     std::uniform_real_distribution<float> detectionDist(0.10f, 0.19f);
 
     // Tworzenie 6 strażników z losową szansą wykrycia komandosa
-    for (int i = 0; i < 6; ++i) {
+    for (int i = 0; i < 6; ++i)
+    {
         guards.emplace_back(detectionDist(rng));
     }
 
@@ -32,18 +34,21 @@ Mission::Mission() : rng(std::random_device{}()) {  // inicjalizacja rng
     commando.addItem(std::make_unique<Silencer>());
 }
 
-void Mission::log(const std::string& message) {
+void Mission::log(const std::string &message)
+{
     logEntries.push_back(message);
 }
 
-void Mission::run() {
+void Mission::run()
+{
     startTime = std::chrono::high_resolution_clock::now();
     simulate();
     endTime = std::chrono::high_resolution_clock::now();
     logToCSV();
 }
 
-void Mission::simulate() {
+void Mission::simulate()
+{
     logEntries.clear();
     logEntries.push_back("Tworzenie misji...");
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
@@ -56,19 +61,41 @@ void Mission::simulate() {
 
     simulateGuardEncounters(missionFailed);
 
-    if (!missionFailed) {
+    if (!missionFailed)
+    {
         rescueHostages();
         missionSuccess = true;
-    } else {
+    }
+    else
+    {
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         logEntries.push_back("Komandos został zauważony. Misja zakończona niepowodzeniem.");
         missionSuccess = false;
     }
 }
 
-void Mission::simulateGuardEncounters(bool& missionFailed) {
+void Mission::applyFlashbangEffect()
+{
+    flashbangEffect = 2; // efekt trwa 2 spotkania
+}
+void Mission::applySmokeEffect()
+{
+    smokeEffect = 2; // efekt trwa 2 spotkania
+}
+int Mission::getFlashbangEffect() const
+{
+    return flashbangEffect;
+}
+int Mission::getSmokeEffect() const
+{
+    return smokeEffect;
+}
+
+void Mission::simulateGuardEncounters(bool &missionFailed)
+{
     std::vector<size_t> guardIndices(guards.size());
-    for (size_t i = 0; i < guards.size(); ++i) {
+    for (size_t i = 0; i < guards.size(); ++i)
+    {
         guardIndices[i] = i;
     }
     std::shuffle(guardIndices.begin(), guardIndices.end(), rng);
@@ -77,10 +104,30 @@ void Mission::simulateGuardEncounters(bool& missionFailed) {
     std::uniform_int_distribution<int> useItemDist(0, 1);
     std::uniform_int_distribution<int> sleepDist(500, 1500);
 
-    for (size_t idx : guardIndices) {
-        if (!guards[idx].isAlive()) continue;
+    for (size_t idx : guardIndices)
+    {
+        if (!guards[idx].isAlive())
+            continue;
+        float detectionModifier = 1.0f;
+        if (flashbangEffect > 0)
+            detectionModifier *= 0.5f; // zmniejsz o 50%
+        if (smokeEffect > 0)
+            detectionModifier *= 0.7f; // zmniejsz o 30%
 
-        if (guards[idx].detectCommando()) {
+        if (guards[idx].detectCommando(detectionModifier))
+        {
+            logEntries.push_back("[Strażnik nr " + std::to_string(idx + 1) + "] wykrył komandosa! Alarm! Misja zakończona.");
+            missionFailed = true;
+            break;
+        }
+
+        if (flashbangEffect > 0)
+            --flashbangEffect;
+        if (smokeEffect > 0)
+            --smokeEffect;
+
+        if (guards[idx].detectCommando())
+        {
             logEntries.push_back("[Strażnik nr " + std::to_string(idx + 1) + "] wykrył komandosa! Alarm! Misja zakończona.");
             missionFailed = true;
             break;
@@ -89,7 +136,8 @@ void Mission::simulateGuardEncounters(bool& missionFailed) {
         int killRoll = killRollDist(rng);
         int killThreshold = hasSilencer ? 80 : 50;
 
-        if (killRoll < killThreshold) {
+        if (killRoll < killThreshold)
+        {
             guards[idx].kill();
             logEntries.push_back("Komandos eliminuje strażnika nr " + std::to_string(idx + 1) + ".");
             killedGuards++;
@@ -98,21 +146,25 @@ void Mission::simulateGuardEncounters(bool& missionFailed) {
         }
 
         // Próba użycia przedmiotu
-        for (auto& itemPtr : commando.getItems()) {
-            if (!itemPtr->isUsed() && useItemDist(rng) != 0) {  // 50% szansy
+        for (auto &itemPtr : commando.getItems())
+        {
+            if (!itemPtr->isUsed() && useItemDist(rng) != 0)
+            { // 50% szansy
                 itemPtr->use();
                 logEntries.push_back("Komandos używa narzędzia: " + itemPtr->getName());
 
                 itemPtr->applyEffect(*this);
 
-                break;  // używamy tylko jeden przedmiot naraz
+                break; // używamy tylko jeden przedmiot naraz
             }
         }
     }
 }
 
-void Mission::rescueHostages() {
-    for (auto& hostage : hostages) {
+void Mission::rescueHostages()
+{
+    for (auto &hostage : hostages)
+    {
         hostage.rescue();
     }
     std::this_thread::sleep_for(std::chrono::milliseconds(rng() % 2000 + 1000));
@@ -120,14 +172,15 @@ void Mission::rescueHostages() {
     logEntries.push_back("Komandos niezauważony. Misja zakończona sukcesem.");
 }
 
-void Mission::logResults() const {
+void Mission::logResults() const
+{
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);
 
     int total_ms = static_cast<int>(duration.count());
 
     int minutes = total_ms / 60000;
     int seconds = (total_ms % 60000) / 1000;
-    int milliseconds = (total_ms % 1000)/10;
+    int milliseconds = (total_ms % 1000) / 10;
 
     std::cout << "Czas misji: "
               << std::setw(2) << std::setfill('0') << minutes << ":"
@@ -139,24 +192,29 @@ void Mission::logResults() const {
     std::cout << "Żywi strażnicy: " << (guards.size() - killedGuards) << "\n";
 
     int unusedItems = 0;
-    for (const auto& itemPtr : commando.getItems()) {
-        if (!itemPtr->isUsed()) unusedItems++;
+    for (const auto &itemPtr : commando.getItems())
+    {
+        if (!itemPtr->isUsed())
+            unusedItems++;
     }
     std::cout << "Nie użyte przedmioty: " << unusedItems << "\n";
 
     std::cout << "\n=== LOG MISJI ===\n";
-    for (const auto& entry : logEntries) {
+    for (const auto &entry : logEntries)
+    {
         std::cout << entry << "\n";
     }
 }
 
-
-void Mission::logToCSV() const {
+void Mission::logToCSV() const
+{
     auto duration = std::chrono::duration_cast<std::chrono::seconds>(endTime - startTime);
 
     int unusedItems = 0;
-    for (const auto& itemPtr : commando.getItems()) {
-        if (!itemPtr->isUsed()) unusedItems++;
+    for (const auto &itemPtr : commando.getItems())
+    {
+        if (!itemPtr->isUsed())
+            unusedItems++;
     }
 
     std::filesystem::create_directories("logs");
@@ -168,7 +226,8 @@ void Mission::logToCSV() const {
     logStream << (guards.size() - killedGuards) << ",";
     logStream << unusedItems << ",";
 
-    for (const auto& log : logEntries) {
+    for (const auto &log : logEntries)
+    {
         logStream << log << "   ";
     }
 

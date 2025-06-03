@@ -1,0 +1,3 @@
+/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles/RESCUE_MISSION_SIMULATION.dir
+/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles/edit_cache.dir
+/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles/rebuild_cache.dir

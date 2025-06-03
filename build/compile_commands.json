@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Agent.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Agent.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Agent.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Agent.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Commando.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Commando.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Commando.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Commando.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Flashbang.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Flashbang.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Flashbang.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Flashbang.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Guard.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Guard.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Guard.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Guard.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Hostage.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Hostage.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Hostage.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Hostage.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Item.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Item.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Item.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Item.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Logger.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Logger.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Logger.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Logger.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/main.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/main.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/main.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Mission.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Mission.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Mission.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Mission.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Silencer.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Silencer.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Silencer.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Silencer.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Smoke.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Smoke.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Smoke.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Smoke.cpp.o"
+}
+]

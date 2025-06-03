@@ -1,4 +1,3 @@
-#pragma once
 #include "Commando.h"
 #include "Item.h"
 
