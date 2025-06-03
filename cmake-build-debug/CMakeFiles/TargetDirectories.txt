@@ -1,0 +1,3 @@
+/Users/maciej/Desktop/RESCUE MISSION SIMULATION/cmake-build-debug/CMakeFiles/RESCUE_MISSION_SIMULATION.dir
+/Users/maciej/Desktop/RESCUE MISSION SIMULATION/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maciej/Desktop/RESCUE MISSION SIMULATION/cmake-build-debug/CMakeFiles/rebuild_cache.dir
