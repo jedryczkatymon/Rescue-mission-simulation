@@ -1,53 +1,56 @@
-# Symulacja operacji specjalnej – misja ratunkowa
+# Simulation of special operation - rescue mission
 
-## Opis projektu
+## Project description
 
-Symulacja operacji specjalnej, której celem jest uwolnienie zakładników bez wykrycia aż do wyjścia z budynku. Na podstawie tekstowej mapy generowane są trasy strażników, a komandos musi taktycznie eliminować przeciwników i wykorzystać dostępne przedmioty, by wykonać misję pomyślnie.
-
----
-
-## Parametry wejściowe
-
-- Liczba komandosów  
-- Liczba strażników (maksymalnie 10)  
-- Przedmioty, które może użyć komandos:  
-  - Tłumik (zwiększa obszar cichego zabójstwa)  
-  - Granat dymny (zmniejsza widoczność strażnika)  
-  - Granat ogłuszający (ogłusza strażnika na 1s)
+Simulation of a special operation, the goal of which is to free hostages without detection until they exit the building. Guards' routes are generated based on a text map, and the commando must tactically eliminate enemies and use available items to complete the mission successfully.
 
 ---
 
-## Parametry wyjściowe
+## Input parameters
 
-- Status misji: sukces lub niepowodzenie  
-- Czas trwania misji  
-- Ilość zabitych strażników
-
----
-
-## Zachowanie komandosów
-
-- Skradanie się — wolniejsze, ale niesłyszalne dla strażników  
-- Możliwość wykorzystania przedmiotów  
-- Ciche zabójstwa — jeśli komandos zakradnie się blisko strażnika, może go wyeliminować po cichu
+- Number of commandos  
+- Number of guards (maximum 10)  
+- Items that the commando can use:  
+  - Silencer (increases silent kill area)  
+  - Smoke grenade (reduces the visibility of the guard)  
+  - Stun grenade (stuns the guard for 1s)
 
 ---
 
-## Zachowanie strażników
+## Output parameters
 
-- Zauważenie komandosa — włączenie alarmu, co skutkuje niepowodzeniem misji
-
----
-
-## Limity
-
-- Maksymalnie 10 strażników  
-- 1 komandos
+- Mission status: success or failure  
+- Mission duration  
+- Number of guards killed
 
 ---
 
-## Przebieg symulacji
+## Behavior of the commandos
 
-Komandos wchodzi do budynku i rozpoczyna misję. Po drodze napotyka strażników, których musi cicho eliminować, unikając wywołania alarmu. Do dyspozycji ma różne przedmioty, które pomagają mu w przejściu do zakładników. Wszystkie zdarzenia są logowane do pliku CSV.
+- Sneaking - slower, but inaudible to guards  
+- Possibility to use objects  
+- Silent kills - if a commando sneaks close to a guard, he can eliminate him silently
 
 ---
+
+## Behavior of guards
+
+- Spotting a commando - sounding an alarm, resulting in mission failure
+
+---
+
+## Limits
+
+- Maximum of 10 guards  
+- 1 commando
+
+---
+
+## The course of the simulation
+
+The commando enters the building and begins the mission. Along the way he encounters guards, whom he must quietly eliminate, avoiding triggering an alarm. Various items are at his disposal to help him get to the hostages. All events are logged to a CSV file.
+
+---
+
+
+Translated with DeepL.com (free version)
