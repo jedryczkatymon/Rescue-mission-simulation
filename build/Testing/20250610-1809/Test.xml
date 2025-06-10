@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250610-1809-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.28.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="Tymon"
+	OSRelease="6.11.0-26-generic"
+	OSVersion="#26~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Apr 17 19:20:47 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="15611"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="451.086"
+	>
+	<Testing>
+		<StartDateTime>Jun 10 21:22 CEST</StartDateTime>
+		<StartTestTime>1749583358</StartTestTime>
+		<TestList>
+			<Test>./AllTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>AllTests</Name>
+			<Path>.</Path>
+			<FullName>./AllTests</FullName>
+			<FullCommandLine>/home/jedryczkatymon/Rescue-mission-simulation/build/RESCUE_MISSION_TESTS</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00309382</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/jedryczkatymon/Rescue-mission-simulation/build/RESCUE_MISSION_TESTS</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVks1OhDAUhfc8xV0OC4ouXLogM2rMRMeAuiHEVLw2jaUl7e34+sJ0xKCp6Fn15zvnpM0tvdZSC+i41KsUXq3pgOXCGKGQ0FHubJuLcfU0Iqxtk/p8UgPl0X8GI+NCwOlhA85LQpbU2aQGrpR55irco95La3SHemCRMt9/g2ehhRi4+2Gf1FA+3MJBzdcxWxvtyPqWjK2QXKHkHgc2aLddZGF1Ap1LY/FbqdTEXnLlouE/yYXo64CWSN5qtzbWYkuPXPloRdyxUFX1yN92nnpPn7YbdI6LaFXcsVC1Mf8v+80z1S2PSECBDHGVJn+bQEJusxfzrucDHh1ssFyzedHwqLuiqi4240ccjSz5AMG5FpM=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jun 10 21:22 CEST</EndDateTime>
+		<EndTestTime>1749583358</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

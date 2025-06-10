@@ -529,3 +529,42 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake:39 (find_dependency)"
+      - "/usr/share/cmake-3.28/Modules/FindGTest.cmake:194 (find_package)"
+      - "CMakeLists.txt:44 (find_package)"
+    directories:
+      source: "/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles/CMakeScratch/TryCompile-0Uo6av"
+      binary: "/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles/CMakeScratch/TryCompile-0Uo6av"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles/CMakeScratch/TryCompile-0Uo6av'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_070bd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_070bd.dir/build.make CMakeFiles/cmTC_070bd.dir/build
+        gmake[1]: Entering directory '/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles/CMakeScratch/TryCompile-0Uo6av'
+        Building C object CMakeFiles/cmTC_070bd.dir/src.c.o
+        /usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_070bd.dir/src.c.o -c /home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles/CMakeScratch/TryCompile-0Uo6av/src.c
+        Linking C executable cmTC_070bd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_070bd.dir/link.txt --verbose=1
+        /usr/bin/gcc CMakeFiles/cmTC_070bd.dir/src.c.o -o cmTC_070bd 
+        gmake[1]: Leaving directory '/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles/CMakeScratch/TryCompile-0Uo6av'
+        
+      exitCode: 0
+...

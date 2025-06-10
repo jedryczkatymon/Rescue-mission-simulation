@@ -1,6 +1,7 @@
 #include "Guard.h"
 #include <random>
 #include <cassert>
+#include <iostream>
 
 Guard::Guard(float detectionChance)
     : Agent(true), detectionChance(detectionChance)
@@ -15,7 +16,14 @@ bool Guard::detectCommando(float modifier)
     std::uniform_real_distribution<float> dist(0.0f, 1.0f);
     float roll = dist(gen);
     float effectiveChance = detectionChance * modifier;
-    if (effectiveChance > 1.0f) effectiveChance = 1.0f;
-    if (effectiveChance < 0.0f) effectiveChance = 0.0f;
+    if (effectiveChance > 1.0f)
+        effectiveChance = 1.0f;
+    if (effectiveChance < 0.0f)
+        effectiveChance = 0.0f;
     return alive && (roll < effectiveChance);
+}
+
+void Guard::doSpeak()
+{
+    std::cout << "[Guard] Kto tam?!\n";
 }

@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "RESCUE_MISSION_SIMULATION",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "RESCUE_MISSION_SIMULATION::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-RESCUE_MISSION_SIMULATION-Debug-9ddbc6d766a1736eb9d5.json",
 					"name" : "RESCUE_MISSION_SIMULATION",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RESCUE_MISSION_TESTS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RESCUE_MISSION_TESTS-Debug-b575961dd872558071ae.json",
+					"name" : "RESCUE_MISSION_TESTS",
 					"projectIndex" : 0
 				}
 			]

@@ -1,12 +1,15 @@
 #pragma once
 
-class Agent {
+class Agent
+{
 public:
     Agent(bool alive = true);
     virtual ~Agent() = default;
 
     bool isAlive() const;
-    virtual void kill();
+    void kill();
+
+    virtual void doSpeak();
 
 protected:
     bool alive;

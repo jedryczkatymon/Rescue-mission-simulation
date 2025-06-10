@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/jedryczkatymon/Rescue-mission-simulation/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -128,6 +138,19 @@ RESCUE_MISSION_SIMULATION: cmake_check_build_system
 RESCUE_MISSION_SIMULATION/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_SIMULATION.dir/build.make CMakeFiles/RESCUE_MISSION_SIMULATION.dir/build
 .PHONY : RESCUE_MISSION_SIMULATION/fast
+
+#=============================================================================
+# Target rules for targets named RESCUE_MISSION_TESTS
+
+# Build rule for target.
+RESCUE_MISSION_TESTS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RESCUE_MISSION_TESTS
+.PHONY : RESCUE_MISSION_TESTS
+
+# fast build rule for target.
+RESCUE_MISSION_TESTS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/build
+.PHONY : RESCUE_MISSION_TESTS/fast
 
 src/Agent.o: src/Agent.cpp.o
 .PHONY : src/Agent.o
@@ -393,6 +416,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_SIMULATION.dir/build.make CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+tests/test_Agent.o: tests/test_Agent.cpp.o
+.PHONY : tests/test_Agent.o
+
+# target to build an object file
+tests/test_Agent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.o
+.PHONY : tests/test_Agent.cpp.o
+
+tests/test_Agent.i: tests/test_Agent.cpp.i
+.PHONY : tests/test_Agent.i
+
+# target to preprocess a source file
+tests/test_Agent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.i
+.PHONY : tests/test_Agent.cpp.i
+
+tests/test_Agent.s: tests/test_Agent.cpp.s
+.PHONY : tests/test_Agent.s
+
+# target to generate assembly for a file
+tests/test_Agent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.s
+.PHONY : tests/test_Agent.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -401,7 +448,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... RESCUE_MISSION_SIMULATION"
+	@echo "... RESCUE_MISSION_TESTS"
 	@echo "... src/Agent.o"
 	@echo "... src/Agent.i"
 	@echo "... src/Agent.s"
@@ -435,6 +484,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... tests/test_Agent.o"
+	@echo "... tests/test_Agent.i"
+	@echo "... tests/test_Agent.s"
 .PHONY : help
 
 

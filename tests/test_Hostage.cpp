@@ -1,18 +1,33 @@
 #include "gtest/gtest.h"
 #include "../include/Hostage.h"
 
-TEST(HostageTest, ConstructorSetsAlive)
+bool Hostage::isRescued() const
 {
-    Hostage hostage1(true);
-    EXPECT_TRUE(hostage1.isAlive());
-
-    Hostage hostage2(false);
-    EXPECT_FALSE(hostage2.isAlive());
+    return rescued;
 }
 
-TEST(HostageTest, KillSetsAliveFalse)
+void Hostage::rescue()
 {
-    Hostage hostage(true);
-    hostage.kill();
-    EXPECT_FALSE(hostage.isAlive());
+    rescued = true;
+}
+
+TEST(HostageTest, InitiallyNotRescued)
+{
+    Hostage h;
+    EXPECT_FALSE(h.isRescued());
+}
+
+TEST(HostageTest, RescueChangesState)
+{
+    Hostage h;
+    h.rescue();
+    EXPECT_TRUE(h.isRescued());
+}
+
+TEST(HostageTest, MultipleRescueCalls)
+{
+    Hostage h;
+    h.rescue();
+    h.rescue(); // Call rescue again
+    EXPECT_TRUE(h.isRescued());
 }

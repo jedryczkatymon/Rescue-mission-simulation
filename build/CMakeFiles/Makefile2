@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/jedryczkatymon/Rescue-mission-simulation/build
 
 # The main recursive "all" target.
 all: CMakeFiles/RESCUE_MISSION_SIMULATION.dir/all
+all: CMakeFiles/RESCUE_MISSION_TESTS.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/RESCUE_MISSION_SIMULATION.dir/clean
+clean: CMakeFiles/RESCUE_MISSION_TESTS.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +101,32 @@ RESCUE_MISSION_SIMULATION: CMakeFiles/RESCUE_MISSION_SIMULATION.dir/rule
 CMakeFiles/RESCUE_MISSION_SIMULATION.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_SIMULATION.dir/build.make CMakeFiles/RESCUE_MISSION_SIMULATION.dir/clean
 .PHONY : CMakeFiles/RESCUE_MISSION_SIMULATION.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RESCUE_MISSION_TESTS.dir
+
+# All Build rule for target.
+CMakeFiles/RESCUE_MISSION_TESTS.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=13,14 "Built target RESCUE_MISSION_TESTS"
+.PHONY : CMakeFiles/RESCUE_MISSION_TESTS.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RESCUE_MISSION_TESTS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RESCUE_MISSION_TESTS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles 0
+.PHONY : CMakeFiles/RESCUE_MISSION_TESTS.dir/rule
+
+# Convenience name for target.
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/rule
+.PHONY : RESCUE_MISSION_TESTS
+
+# clean rule for target.
+CMakeFiles/RESCUE_MISSION_TESTS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/clean
+.PHONY : CMakeFiles/RESCUE_MISSION_TESTS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -3,16 +3,17 @@
 
 class Mission;
 
-class Item {
+class Item
+{
 public:
-    Item(const std::string& name);
+    Item(const std::string &name);
     virtual ~Item() = default;
 
-    virtual const std::string& getName() const;
-    virtual bool isUsed() const;
-    virtual void use();
+    const std::string &getName() const;
+    bool isUsed() const;
+    void use();
 
-    virtual void applyEffect(Mission& mission) = 0;
+    virtual void applyEffect(Mission &mission) = 0;
 
     void setUsed(bool value);
 

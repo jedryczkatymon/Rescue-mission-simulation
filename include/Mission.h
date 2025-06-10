@@ -13,7 +13,7 @@ public:
     void logResults() const;
     void setHasSilencer(bool value) { hasSilencer = value; }
     bool getHasSilencer() const { return hasSilencer; }
-    void log(const std::string& message);
+    virtual void log(const std::string& message);
     void applyFlashbangEffect();
     void applySmokeEffect();
     int getFlashbangEffect() const;

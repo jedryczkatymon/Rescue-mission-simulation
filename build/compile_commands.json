@@ -64,5 +64,11 @@
   "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -o CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Smoke.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/src/Smoke.cpp",
   "file": "/home/jedryczkatymon/Rescue-mission-simulation/src/Smoke.cpp",
   "output": "CMakeFiles/RESCUE_MISSION_SIMULATION.dir/src/Smoke.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Agent.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Agent.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.o"
 }
 ]

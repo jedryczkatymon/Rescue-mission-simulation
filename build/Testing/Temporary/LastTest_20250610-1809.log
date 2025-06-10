@@ -1,0 +1,37 @@
+Start testing: Jun 10 21:22 CEST
+----------------------------------------------------------
+1/1 Testing: AllTests
+1/1 Test: AllTests
+Command: "/home/jedryczkatymon/Rescue-mission-simulation/build/RESCUE_MISSION_TESTS"
+Directory: /home/jedryczkatymon/Rescue-mission-simulation/build
+"AllTests" start time: Jun 10 21:22 CEST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AgentTest
+[ RUN      ] AgentTest.ConstructorSetsAlive
+[       OK ] AgentTest.ConstructorSetsAlive (0 ms)
+[ RUN      ] AgentTest.KillSetsAliveFalse
+[       OK ] AgentTest.KillSetsAliveFalse (0 ms)
+[ RUN      ] AgentTest.IsAliveReturnsCorrectValue
+[       OK ] AgentTest.IsAliveReturnsCorrectValue (0 ms)
+[ RUN      ] AgentTest.SpeakOutputsCorrectMessage
+[       OK ] AgentTest.SpeakOutputsCorrectMessage (0 ms)
+[ RUN      ] AgentTest.DoSpeakOutputsCorrectMessage
+[       OK ] AgentTest.DoSpeakOutputsCorrectMessage (0 ms)
+[----------] 5 tests from AgentTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AllTests" end time: Jun 10 21:22 CEST
+"AllTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 10 21:22 CEST
