@@ -440,6 +440,246 @@ tests/test_Agent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.s
 .PHONY : tests/test_Agent.cpp.s
 
+tests/test_Commando.o: tests/test_Commando.cpp.o
+.PHONY : tests/test_Commando.o
+
+# target to build an object file
+tests/test_Commando.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o
+.PHONY : tests/test_Commando.cpp.o
+
+tests/test_Commando.i: tests/test_Commando.cpp.i
+.PHONY : tests/test_Commando.i
+
+# target to preprocess a source file
+tests/test_Commando.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.i
+.PHONY : tests/test_Commando.cpp.i
+
+tests/test_Commando.s: tests/test_Commando.cpp.s
+.PHONY : tests/test_Commando.s
+
+# target to generate assembly for a file
+tests/test_Commando.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.s
+.PHONY : tests/test_Commando.cpp.s
+
+tests/test_Flashbang.o: tests/test_Flashbang.cpp.o
+.PHONY : tests/test_Flashbang.o
+
+# target to build an object file
+tests/test_Flashbang.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o
+.PHONY : tests/test_Flashbang.cpp.o
+
+tests/test_Flashbang.i: tests/test_Flashbang.cpp.i
+.PHONY : tests/test_Flashbang.i
+
+# target to preprocess a source file
+tests/test_Flashbang.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.i
+.PHONY : tests/test_Flashbang.cpp.i
+
+tests/test_Flashbang.s: tests/test_Flashbang.cpp.s
+.PHONY : tests/test_Flashbang.s
+
+# target to generate assembly for a file
+tests/test_Flashbang.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.s
+.PHONY : tests/test_Flashbang.cpp.s
+
+tests/test_Guard.o: tests/test_Guard.cpp.o
+.PHONY : tests/test_Guard.o
+
+# target to build an object file
+tests/test_Guard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o
+.PHONY : tests/test_Guard.cpp.o
+
+tests/test_Guard.i: tests/test_Guard.cpp.i
+.PHONY : tests/test_Guard.i
+
+# target to preprocess a source file
+tests/test_Guard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.i
+.PHONY : tests/test_Guard.cpp.i
+
+tests/test_Guard.s: tests/test_Guard.cpp.s
+.PHONY : tests/test_Guard.s
+
+# target to generate assembly for a file
+tests/test_Guard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.s
+.PHONY : tests/test_Guard.cpp.s
+
+tests/test_Hostage.o: tests/test_Hostage.cpp.o
+.PHONY : tests/test_Hostage.o
+
+# target to build an object file
+tests/test_Hostage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o
+.PHONY : tests/test_Hostage.cpp.o
+
+tests/test_Hostage.i: tests/test_Hostage.cpp.i
+.PHONY : tests/test_Hostage.i
+
+# target to preprocess a source file
+tests/test_Hostage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.i
+.PHONY : tests/test_Hostage.cpp.i
+
+tests/test_Hostage.s: tests/test_Hostage.cpp.s
+.PHONY : tests/test_Hostage.s
+
+# target to generate assembly for a file
+tests/test_Hostage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.s
+.PHONY : tests/test_Hostage.cpp.s
+
+tests/test_Item.o: tests/test_Item.cpp.o
+.PHONY : tests/test_Item.o
+
+# target to build an object file
+tests/test_Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o
+.PHONY : tests/test_Item.cpp.o
+
+tests/test_Item.i: tests/test_Item.cpp.i
+.PHONY : tests/test_Item.i
+
+# target to preprocess a source file
+tests/test_Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.i
+.PHONY : tests/test_Item.cpp.i
+
+tests/test_Item.s: tests/test_Item.cpp.s
+.PHONY : tests/test_Item.s
+
+# target to generate assembly for a file
+tests/test_Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.s
+.PHONY : tests/test_Item.cpp.s
+
+tests/test_Logger.o: tests/test_Logger.cpp.o
+.PHONY : tests/test_Logger.o
+
+# target to build an object file
+tests/test_Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o
+.PHONY : tests/test_Logger.cpp.o
+
+tests/test_Logger.i: tests/test_Logger.cpp.i
+.PHONY : tests/test_Logger.i
+
+# target to preprocess a source file
+tests/test_Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.i
+.PHONY : tests/test_Logger.cpp.i
+
+tests/test_Logger.s: tests/test_Logger.cpp.s
+.PHONY : tests/test_Logger.s
+
+# target to generate assembly for a file
+tests/test_Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.s
+.PHONY : tests/test_Logger.cpp.s
+
+tests/test_Mission.o: tests/test_Mission.cpp.o
+.PHONY : tests/test_Mission.o
+
+# target to build an object file
+tests/test_Mission.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o
+.PHONY : tests/test_Mission.cpp.o
+
+tests/test_Mission.i: tests/test_Mission.cpp.i
+.PHONY : tests/test_Mission.i
+
+# target to preprocess a source file
+tests/test_Mission.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.i
+.PHONY : tests/test_Mission.cpp.i
+
+tests/test_Mission.s: tests/test_Mission.cpp.s
+.PHONY : tests/test_Mission.s
+
+# target to generate assembly for a file
+tests/test_Mission.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.s
+.PHONY : tests/test_Mission.cpp.s
+
+tests/test_Silencer.o: tests/test_Silencer.cpp.o
+.PHONY : tests/test_Silencer.o
+
+# target to build an object file
+tests/test_Silencer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o
+.PHONY : tests/test_Silencer.cpp.o
+
+tests/test_Silencer.i: tests/test_Silencer.cpp.i
+.PHONY : tests/test_Silencer.i
+
+# target to preprocess a source file
+tests/test_Silencer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.i
+.PHONY : tests/test_Silencer.cpp.i
+
+tests/test_Silencer.s: tests/test_Silencer.cpp.s
+.PHONY : tests/test_Silencer.s
+
+# target to generate assembly for a file
+tests/test_Silencer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.s
+.PHONY : tests/test_Silencer.cpp.s
+
+tests/test_Smoke.o: tests/test_Smoke.cpp.o
+.PHONY : tests/test_Smoke.o
+
+# target to build an object file
+tests/test_Smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o
+.PHONY : tests/test_Smoke.cpp.o
+
+tests/test_Smoke.i: tests/test_Smoke.cpp.i
+.PHONY : tests/test_Smoke.i
+
+# target to preprocess a source file
+tests/test_Smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.i
+.PHONY : tests/test_Smoke.cpp.i
+
+tests/test_Smoke.s: tests/test_Smoke.cpp.s
+.PHONY : tests/test_Smoke.s
+
+# target to generate assembly for a file
+tests/test_Smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.s
+.PHONY : tests/test_Smoke.cpp.s
+
+tests/test_main.o: tests/test_main.cpp.o
+.PHONY : tests/test_main.o
+
+# target to build an object file
+tests/test_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o
+.PHONY : tests/test_main.cpp.o
+
+tests/test_main.i: tests/test_main.cpp.i
+.PHONY : tests/test_main.i
+
+# target to preprocess a source file
+tests/test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.i
+.PHONY : tests/test_main.cpp.i
+
+tests/test_main.s: tests/test_main.cpp.s
+.PHONY : tests/test_main.s
+
+# target to generate assembly for a file
+tests/test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.s
+.PHONY : tests/test_main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -487,6 +727,36 @@ help:
 	@echo "... tests/test_Agent.o"
 	@echo "... tests/test_Agent.i"
 	@echo "... tests/test_Agent.s"
+	@echo "... tests/test_Commando.o"
+	@echo "... tests/test_Commando.i"
+	@echo "... tests/test_Commando.s"
+	@echo "... tests/test_Flashbang.o"
+	@echo "... tests/test_Flashbang.i"
+	@echo "... tests/test_Flashbang.s"
+	@echo "... tests/test_Guard.o"
+	@echo "... tests/test_Guard.i"
+	@echo "... tests/test_Guard.s"
+	@echo "... tests/test_Hostage.o"
+	@echo "... tests/test_Hostage.i"
+	@echo "... tests/test_Hostage.s"
+	@echo "... tests/test_Item.o"
+	@echo "... tests/test_Item.i"
+	@echo "... tests/test_Item.s"
+	@echo "... tests/test_Logger.o"
+	@echo "... tests/test_Logger.i"
+	@echo "... tests/test_Logger.s"
+	@echo "... tests/test_Mission.o"
+	@echo "... tests/test_Mission.i"
+	@echo "... tests/test_Mission.s"
+	@echo "... tests/test_Silencer.o"
+	@echo "... tests/test_Silencer.i"
+	@echo "... tests/test_Silencer.s"
+	@echo "... tests/test_Smoke.o"
+	@echo "... tests/test_Smoke.i"
+	@echo "... tests/test_Smoke.s"
+	@echo "... tests/test_main.o"
+	@echo "... tests/test_main.i"
+	@echo "... tests/test_main.s"
 .PHONY : help
 
 

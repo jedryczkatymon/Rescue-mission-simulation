@@ -109,12 +109,12 @@ CMakeFiles/RESCUE_MISSION_SIMULATION.dir/clean:
 CMakeFiles/RESCUE_MISSION_TESTS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make CMakeFiles/RESCUE_MISSION_TESTS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=13,14 "Built target RESCUE_MISSION_TESTS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24 "Built target RESCUE_MISSION_TESTS"
 .PHONY : CMakeFiles/RESCUE_MISSION_TESTS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RESCUE_MISSION_TESTS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RESCUE_MISSION_TESTS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles 0
 .PHONY : CMakeFiles/RESCUE_MISSION_TESTS.dir/rule

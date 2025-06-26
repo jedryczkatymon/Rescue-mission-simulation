@@ -83,20 +83,180 @@ CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Agent.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.s
 
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Commando.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Commando.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Commando.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Commando.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.s
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Flashbang.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Flashbang.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Flashbang.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Flashbang.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.s
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Guard.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Guard.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Guard.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Guard.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.s
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Hostage.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Hostage.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Hostage.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Hostage.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.s
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Item.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Item.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Item.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Item.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.s
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Logger.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Logger.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Logger.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Logger.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.s
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Mission.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Mission.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Mission.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Mission.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.s
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Silencer.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Silencer.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Silencer.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Silencer.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.s
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Smoke.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Smoke.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Smoke.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Smoke.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.s
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/flags.make
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o: /home/jedryczkatymon/Rescue-mission-simulation/tests/test_main.cpp
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o: CMakeFiles/RESCUE_MISSION_TESTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o -MF CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o.d -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_main.cpp
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedryczkatymon/Rescue-mission-simulation/tests/test_main.cpp > CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.i
+
+CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedryczkatymon/Rescue-mission-simulation/tests/test_main.cpp -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.s
+
 # Object files for target RESCUE_MISSION_TESTS
 RESCUE_MISSION_TESTS_OBJECTS = \
-"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.o"
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o" \
+"CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o"
 
 # External object files for target RESCUE_MISSION_TESTS
 RESCUE_MISSION_TESTS_EXTERNAL_OBJECTS =
 
 RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o
+RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o
 RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/build.make
 RESCUE_MISSION_TESTS: /usr/lib/x86_64-linux-gnu/libgtest.a
 RESCUE_MISSION_TESTS: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 RESCUE_MISSION_TESTS: /usr/lib/x86_64-linux-gnu/libgtest.a
 RESCUE_MISSION_TESTS: CMakeFiles/RESCUE_MISSION_TESTS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RESCUE_MISSION_TESTS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jedryczkatymon/Rescue-mission-simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable RESCUE_MISSION_TESTS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RESCUE_MISSION_TESTS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -70,5 +70,65 @@
   "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Agent.cpp",
   "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Agent.cpp",
   "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Agent.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Commando.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Commando.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Commando.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Flashbang.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Flashbang.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Flashbang.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Guard.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Guard.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Guard.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Hostage.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Hostage.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Hostage.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Item.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Item.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Item.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Logger.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Logger.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Logger.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Mission.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Mission.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Mission.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Silencer.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Silencer.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Silencer.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_Smoke.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_Smoke.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_Smoke.cpp.o"
+},
+{
+  "directory": "/home/jedryczkatymon/Rescue-mission-simulation/build",
+  "command": "/usr/bin/g++  -I/home/jedryczkatymon/Rescue-mission-simulation/include -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o -c /home/jedryczkatymon/Rescue-mission-simulation/tests/test_main.cpp",
+  "file": "/home/jedryczkatymon/Rescue-mission-simulation/tests/test_main.cpp",
+  "output": "CMakeFiles/RESCUE_MISSION_TESTS.dir/tests/test_main.cpp.o"
 }
 ]
